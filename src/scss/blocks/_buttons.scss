@@ -1,0 +1,46 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color, #F2994A);
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    color: #ffffff;
+    transition: ease 0.3s all;
+    &:hover {
+        color: #ffffff;
+        box-shadow: 0 0 10px var(--main-color, #F2994A);
+        transition: ease 0.3s all;
+    }
+    &_header-signup, &_header-signin {
+        width: 112px;
+        height: 100%;
+    }
+    &_header-signin {
+        background-color: transparent;
+        border: 1px solid var(--main-color, #F2994A);
+    }
+    &_menu-signin, &_menu-signup {
+        font-size: 15px;
+        height: 36px;
+        transition: ease 0.3s all;
+        &:hover {
+            transition: ease 0.3s all;
+            box-shadow: none;
+            color: #3B1D60;
+        }
+    }
+    &_menu-signup {
+        border: 1px solid #ffffff;
+        border-radius: 3px;
+        width: 220px;
+        margin: 0 auto;
+        &:hover {
+            border-color: #3B1D60;
+        }
+    }
+}
