@@ -1,0 +1,49 @@
+.traffic {
+    padding: 150px 0;
+    overflow: hidden;
+    &__grid-container {
+        padding: 0 65px;
+        display: grid;
+        grid-template: auto / repeat(2, auto);
+        grid-auto-rows: auto;
+        column-gap: 88px;
+        justify-content: center;
+    }
+    &__descr {
+        align-self: center;
+    }
+    &__subtitle-key {
+        color: var(--main-color, #F2994A);
+    }
+    &__text {
+        margin-top: 32px;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+    }
+    &__images {
+        width: 440px;
+        height: 400px;
+        position: relative;
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        &_1 {
+            bottom: 0;
+            right: 0;
+        }
+        &_2 {
+            top: 0;
+            right: 49px;
+        }
+        &_3 {
+            top: 17px;
+            left: 0;
+        }
+        &_4 {
+            bottom: -57px;
+            right: 90px;
+        }
+    }
+}
