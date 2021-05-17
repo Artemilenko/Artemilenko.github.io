@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Inter';
+    font-size: 42px;
+    line-height: 50px;
+    color: var(--title-color, #99EFD0);
+    &_fs44 {
+        font-size: 44px;
+    }
+}

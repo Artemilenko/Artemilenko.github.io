@@ -1,5 +1,103 @@
 .promo {
     min-height: 1315px;
     background: url('../img/backgrounds/promo_bg.jpg') center (center/cover) no-repeat;
-    padding-top: 219px;
+    padding-top: 250px;
+    &__img-man {
+        position: absolute;
+        top: -31px;
+        left: 540px;
+    }
+    &__img-stars {
+        position: absolute;
+        top: 455px;
+        left: -170px;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__btns {
+        margin-top: 40px;
+        width: 334px;
+        height: 46px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__preview {
+        margin-top: 60px;
+        width: 540px;
+        display: grid;
+        grid-template: auto / repeat(2, auto);
+        column-gap: 20px;
+    }
+    &__video {
+        width: 140px;
+        height: 80px;
+        border-radius: 4px;
+    }
+    &__video-descr {
+        align-self: center;
+    }
+    &__descr {
+        font-family: 'Rubik Regular', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    &__alert {
+        margin-top: 6px;
+        font-family: 'Rubik Regular', sans-serif;
+        font-size: 14px;
+        color: #6D6D78;
+    }
+    &__brands {
+        margin-top: 103px;
+        padding: 0 98px;
+        display: grid;
+        grid-template: 25px / repeat(6, auto);
+        grid-auto-rows: 25px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__subtitle {
+        margin-top: 99px;
+        text-align: center;
+    }
+    &__choise-text {
+        margin-top: 13px;
+        font-size: 16px;
+        text-align: center;
+    }
+    &__choises {
+        margin-top: 50px;
+        padding: 0 50px;
+        display: grid;
+        grid-template: repeat(2, minmax(106px, auto)) / repeat(3, 300px);
+        grid-auto-rows: minmax(106px, auto);
+        row-gap: 35px;
+        justify-content: space-between;
+    }
+    &__choise-item {
+        padding-left: 52px;
+        position: relative;
+    }
+    &__choise-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &__choise-header {
+        font-family: 'Gilroy Bold', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    &__choise-descr {
+        margin-top: 10px;
+        font-family: 'Gilroy Semibold', sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        color: var(--text-color, #8476AA);
+    }
 }

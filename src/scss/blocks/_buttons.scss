@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     background-color: var(--main-color, #F2994A);
     font-family: 'Rubik', sans-serif;
     font-size: 12px;
@@ -11,18 +12,17 @@
     border-radius: 3px;
     color: #ffffff;
     transition: ease 0.3s all;
+    &_transparent {
+        background-color: transparent;
+        border: 1px solid var(--main-color, #F2994A);
+    }
     &:hover {
         color: #ffffff;
         box-shadow: 0 0 10px var(--main-color, #F2994A);
         transition: ease 0.3s all;
     }
-    &_header-signup, &_header-signin {
+    &_header {
         width: 112px;
-        height: 100%;
-    }
-    &_header-signin {
-        background-color: transparent;
-        border: 1px solid var(--main-color, #F2994A);
     }
     &_menu-signin, &_menu-signup {
         font-size: 15px;
@@ -42,5 +42,8 @@
         &:hover {
             border-color: #3B1D60;
         }
+    }
+    &_promo {
+        width: 157px;
     }
 }

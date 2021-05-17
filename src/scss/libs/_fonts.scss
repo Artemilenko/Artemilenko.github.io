@@ -1,9 +1,19 @@
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'Gilroy Regular';
     src: url('../fonts/Gilroy-Regular.eot');
     src: url('../fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Gilroy-Regular.woff') format('woff'),
     url('../fonts/Gilroy-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik Regular';
+    src: url('../fonts/Rubik-Regular.eot');
+    src: url('../fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Rubik-Regular.woff') format('woff'),
+    url('../fonts/Rubik-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -15,5 +25,36 @@
     url('../fonts/Rubik-Medium.woff') format('woff'),
     url('../fonts/Rubik-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Semibold';
+    src: url('Gilroy-SemiBold.eot');
+    src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Gilroy-SemiBold.woff') format('woff'),
+    url('Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.eot');
+    src: url('../fonts/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Inter-Bold.woff2') format('woff2'),
+    url('../fonts/Inter-Bold.woff') format('woff'),
+    url('../fonts/Inter-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy Bold';
+    src: url('../fonts/Gilroy-Bold.eot');
+    src: url('../fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilroy-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
