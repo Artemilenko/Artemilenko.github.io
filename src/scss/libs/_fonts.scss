@@ -30,10 +30,10 @@
 
 @font-face {
     font-family: 'Gilroy Semibold';
-    src: url('Gilroy-SemiBold.eot');
-    src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('Gilroy-SemiBold.woff') format('woff'),
-    url('Gilroy-SemiBold.ttf') format('truetype');
+    src: url('../fonts/Gilroy-SemiBold.eot');
+    src: url('../fonts/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilroy-SemiBold.woff') format('woff'),
+    url('../fonts/Gilroy-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
