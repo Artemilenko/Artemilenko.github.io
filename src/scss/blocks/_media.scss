@@ -96,6 +96,11 @@
             justify-self: end;
         }
     }
+    .metricks {
+        &__img-stars {
+            display: none;
+        }
+    }
 }
 @media (max-width: 576px) {
     .container {
@@ -194,6 +199,24 @@
                 top: -12px;
                 right: -19px;
             }
+        }
+    }
+    .metricks {
+        padding-top: 0;
+        &__wrapper {
+            justify-content: center;
+        }
+        &__subtitle, &__subtitle-key {
+            font-size: 30px;
+        }
+        &__text {
+            font-size: 13px;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 13px;
         }
     }
 }
