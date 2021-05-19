@@ -14,7 +14,7 @@
         width: 36px;
         height: 36px;
         border-radius: 100%;
-        background-color: var(--main-color, #F2994A);
+        background-color: var(--main-color);
         position: relative;
         &:before, &:after {
             content: '';
@@ -44,15 +44,11 @@
     }
     &__menu-link {
         text-transform: uppercase;
-        font-family: 'Gilroy Regular', sans-serif;
-        font-size: 12px;
-        letter-spacing: 2px;
-        color: #b5b5b5;
         text-decoration: none;
         transition: ease 0.3s all;
         &:hover {
             transition: ease 0.3s all;
-            color: var(--main-color, #F2994A);
+            color: var(--main-color);
         }
     }
     &__btns {

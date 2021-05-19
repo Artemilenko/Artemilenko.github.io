@@ -1,24 +1,22 @@
 .metricks {
-    padding-top: 46px;
     text-align: center;
     &__img-stars {
         position: absolute;
         top: -342px;
         left: -221px;
+        z-index: -1;
     }
     &__subtitle-key {
-        color: var(--main-color, #F2994A);
+        color: var(--main-color);
     }
     &__text, &__descr {
         margin-top: 32px;
-        font-size: 15px;
-        line-height: 20px;
         letter-spacing: 0.2px;
     }
     &__wrapper {
         margin-top: 48px;
         display: grid;
-        grid-template: auto / repeat(auto-fit, 265px);
+        grid-template: auto / repeat(auto-fit, 270px);
         grid-auto-rows: auto;
         row-gap: 40px;
         justify-content: space-between;
