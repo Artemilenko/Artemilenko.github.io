@@ -17,6 +17,11 @@
             column-gap: 100px;
         }
     }
+    .help {
+        &__descr {
+            width: 435px;
+        }
+    }
 }
 @media (max-width: 992px) {
     .container {
@@ -42,6 +47,21 @@
         &__grid-container {
             column-gap: 30px;
             padding: 0;
+        }
+    }
+    .help {
+        &__grid-container {
+            grid-template: auto / 1fr;
+            justify-content: center;
+            row-gap: 40px;
+        }
+        &__images {
+            order: 1;
+            justify-self: center;
+        }
+        &__descr {
+            justify-self: center;
+            width: 100%;
         }
     }
 }
@@ -141,6 +161,9 @@
             font-size: 30px;
         }
     }
+    .text {
+        font-size: 13px;
+    }
     .menu {
         &__block {
             width: 250px;
@@ -153,7 +176,6 @@
             text-align: center;
         }
         &__text {
-            font-size: 13px;
             text-align: center;
         }
         &__btns {
@@ -177,9 +199,6 @@
         &__video {
             justify-self: center;
         }
-        &__descr {
-            font-size: 13px;
-        }
         &__brands {
             margin-top: 60px;
             grid-template: repeat(3, 25px) / repeat(2, auto);
@@ -191,9 +210,6 @@
         &__choise-header {
             font-size: 18px;
         }
-        &__choise-text, &__choise-descr {
-            font-size: 13px;
-        }
     }
     .traffic {
         text-align: center;
@@ -202,7 +218,6 @@
         }
         &__text {
             margin-top: 25px;
-            font-size: 13px;
         }
         &__button {
             margin: 30px auto 0 auto;
@@ -241,14 +256,8 @@
         &__subtitle {
             font-size: 30px;
         }
-        &__text {
-            font-size: 13px;
-        }
         &__header {
             font-size: 25px;
-        }
-        &__descr {
-            font-size: 13px;
         }
     }
     .business {
@@ -259,7 +268,6 @@
         }
         &__text {
             margin-top: 25px;
-            font-size: 13px;
         }
         &__button {
             margin: 30px auto 0 auto;
@@ -285,6 +293,28 @@
             &_3 {
                 display: none;
             }
+        }
+    }
+    .help {
+        padding-top: 100px;
+        text-align: center;
+        &__images {
+            width: 100%;
+        }
+        &__img {
+            &_1, &_2, &_3 {
+                display: none;
+            }
+            &_4 {
+                width: 290px;
+                top: 0;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+        &__descr-wrapper {
+            justify-content: center;
+            row-gap: 30px;
         }
     }
 }

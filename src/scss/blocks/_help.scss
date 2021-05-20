@@ -1,0 +1,65 @@
+.help {
+    padding-top: 150px;
+    &__grid-container {
+        display: grid;
+        grid-template: auto / repeat(2, auto);
+        grid-auto-rows: auto;
+        justify-content: space-between;
+    }
+    &__images {
+        width: 495px;
+        height: 446px;
+        position: relative;
+    }
+    &__photo {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__img {
+        position: absolute;
+        display: block;
+        &_1 {
+            top: 0;
+            left: 34px;
+        }
+        &_2 {
+            bottom: 147px;
+            right: 0;
+        }
+        &_3 {
+            bottom: 84px;
+            left: 0;
+        }
+        &_4 {
+            width: 375px;
+            z-index: 1;
+            bottom: 0;
+            left: 70px;
+        }
+    }
+    &__descr {
+        width: 512px;
+        align-self: center;
+        &-wrapper {
+            margin-top: 48px;
+            display: grid;
+            grid-template: auto / repeat(auto-fit, 212px);
+            grid-auto-rows: auto;
+            justify-content: space-between;
+        }
+        &-text {
+            margin-top: 8px;
+        }
+    }
+    &__header {
+        margin-top: 16px;
+        font-size: 15px;
+        line-height: 18px;
+        font-family: 'Inter';
+        color: var(--title-color);
+    }
+    &__text {
+        margin-top: 32px;
+    }
+}
