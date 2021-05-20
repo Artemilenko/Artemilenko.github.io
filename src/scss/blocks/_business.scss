@@ -1,13 +1,12 @@
-.traffic {
-    padding: 150px 0;
-    overflow-x: hidden;
+.business {
+    padding-top: 50px;
     &__grid-container {
-        padding: 0 65px;
+        padding: 0 30px;
         display: grid;
         grid-template: auto / repeat(2, auto);
         grid-auto-rows: auto;
-        column-gap: 88px;
-        justify-content: center;
+        column-gap: 163px;
+        justify-content: space-between;
     }
     &__descr {
         align-self: center;
@@ -17,8 +16,8 @@
         letter-spacing: 0.5px;
     }
     &__images {
-        width: 440px;
-        height: 400px;
+        width: 403px;
+        height: 415px;
         position: relative;
         align-self: center;
     }
@@ -26,20 +25,16 @@
         display: block;
         position: absolute;
         &_1 {
-            bottom: 0;
+            bottom: 104px;
             right: 0;
         }
         &_2 {
             top: 0;
-            right: 49px;
+            left: 29px;
         }
         &_3 {
-            top: 17px;
-            left: 0;
-        }
-        &_4 {
-            bottom: -57px;
-            right: 90px;
+            top: 85px;
+            left: -36px;
         }
     }
 }
