@@ -1,0 +1,19 @@
+.create {
+    min-height: 750px;
+    padding-top: 150px;
+    text-align: center;
+    overflow-x: hidden;
+    &__img-stars {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-48%);
+        z-index: -1;
+    }
+    &__img-circle {
+        position: absolute;
+        top: 107%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

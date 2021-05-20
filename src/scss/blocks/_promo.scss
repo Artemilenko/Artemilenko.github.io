@@ -2,14 +2,11 @@
     min-height: 1315px;
     background: url('../img/backgrounds/promo_bg.jpg') center (center/cover) no-repeat;
     padding-top: 250px;
-    overflow: hidden;
+    overflow-x: hidden;
     &__img-man {
         position: absolute;
-        width: 724px;
-        height: 580px;
         top: -31px;
         left: 540px;
-        background: url('../img/promo/man_vector.svg') center (center/cover) no-repeat;
     }
     &__img-stars {
         position: absolute;
