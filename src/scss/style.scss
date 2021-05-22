@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/icomoon';
 
 :root {
     --bg-color: #0F1144;
@@ -47,5 +48,6 @@ ul {
 @import 'blocks/business';
 @import 'blocks/help';
 @import 'blocks/email';
+@import 'blocks/footer';
 
 @import 'blocks/media';

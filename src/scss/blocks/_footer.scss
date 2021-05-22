@@ -1,0 +1,89 @@
+.footer {
+    padding: 150px 0 50px 0;
+    &__contacts {
+        padding: 0 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__social {
+        width: 152px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: rgb(23, 26, 80);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: var(--main-color);
+        transition: ease 0.3s all;
+        &:hover {
+            color: var(--main-color);
+            box-shadow: 0 0 10px var(--main-color);
+            transition: ease 0.3s all;
+        }
+    }
+    &__grid-container {
+        margin-top: 86px;
+        padding: 0 60px;
+        display: grid;
+        grid-template: auto / repeat(4, auto);
+        grid-auto-rows: auto;
+        justify-content: space-between;
+    }
+    &__elem-header {
+        margin-bottom: 9px;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }&__elem-item {
+        margin-top: 16px;
+        &:first-child {
+            margin-top: 25px;
+        }
+    }
+    &__elem-link {
+        font-family: 'Gilroy Regular', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-decoration: none;
+        &:hover {
+            color: var(--main-color);
+        }
+    }
+    &__info {
+        margin-top: 120px;
+        display: grid;
+        grid-template: auto / repeat(3, auto);
+        grid-auto-rows: auto;
+        column-gap: 33px;
+        justify-content: center;
+        &-link {
+            font-family: 'Gilroy Regular', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: #8D8D8D;
+            text-decoration: none;
+            &:hover {
+                color: #8D8D8D;
+                text-decoration: underline;
+            }
+        }
+    }
+    &__copyrights {
+        font-family: 'Gilroy Regular', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.2px;
+        color: #8D8D8D;
+    }
+}

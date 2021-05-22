@@ -55,6 +55,7 @@
         }
     }
     .help {
+        padding-top: 100px;
         &__grid-container {
             grid-template: auto / 1fr;
             justify-content: center;
@@ -70,8 +71,15 @@
         }
     }
     .email {
+        padding-top: 150px;
         &__btn {
             right: 153px;
+        }
+    }
+    .footer {
+        padding-top: 100px;
+        &__contacts, &__grid-container {
+            padding: 0;
         }
     }
 }
@@ -357,6 +365,30 @@
             border-radius: 5px;
             margin: 10px auto 0;
             width: 250px;
+        }
+    }
+    .footer {
+        &__contacts {
+            flex-direction: column;
+        }
+        &__social {
+            margin-top: 20px;
+        }
+        &__grid-container {
+            display: none;
+        }
+        &__info {
+            margin-top: 30px;
+            grid-template: repeat(3, auto) / auto;
+            column-gap: 0;
+            row-gap: 15px;
+            &-link {
+                text-align: center;
+            }
+        }
+        &__copyrights {
+            order: 1;
+            text-align: center;
         }
     }
 }
