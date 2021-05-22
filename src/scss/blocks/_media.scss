@@ -22,6 +22,11 @@
             width: 435px;
         }
     }
+    .email {
+        &__wrapper {
+            width: 100%;
+        }
+    }
 }
 @media (max-width: 992px) {
     .container {
@@ -62,6 +67,11 @@
         &__descr {
             justify-self: center;
             width: 100%;
+        }
+    }
+    .email {
+        &__btn {
+            right: 153px;
         }
     }
 }
@@ -144,6 +154,17 @@
         }
         &__images {
             justify-self: end;
+        }
+    }
+    .email {
+        &__wrapper {
+            padding-top: 25px;
+        }
+        &__address {
+            width: 350px;
+        }
+        &__btn {
+            right: 96px;
         }
     }
 }
@@ -315,6 +336,24 @@
         &__descr-wrapper {
             justify-content: center;
             row-gap: 30px;
+        }
+    }
+    .email {
+        padding-top: 160px;
+        &__wrapper {
+            padding: 15px 0;
+            height: 100%;
+        }
+        &__address {
+            width: 250px;
+            padding: 0 16px;
+        }
+        &__btn {
+            right: 96px;
+            position: unset;
+            border-radius: 5px;
+            margin: 10px auto 0;
+            width: 250px;
         }
     }
 }
