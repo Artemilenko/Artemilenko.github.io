@@ -32,7 +32,7 @@ for (let i = 0; i < btn.length; i++) {
 window.addEventListener('scroll', () => {
     let scrolled = window.pageYOffset;
 
-    if (scrolled > 1315) {
+    if (scrolled > 500) {
         arrow.classList.add('active-arrow');
     } else {
         arrow.classList.remove('active-arrow');
