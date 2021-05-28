@@ -38,3 +38,7 @@ window.addEventListener('scroll', () => {
         arrow.classList.remove('active-arrow');
     }
 });
+
+window.onload = function() {
+    document.querySelector('.preload').style.display = 'none';
+};
